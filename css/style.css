@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+#submitbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainrr{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(242,213,95,1) 50%, rgba(0,212,255,1) 100%);
+    min-width: 550px;
+}
+.formrr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(227, 163, 85);
+    border: 1px solid rgb(216, 143, 59);
+    height: 250px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.marksrr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(227, 163, 85);
+    border: 1px solid rgb(216, 143, 59);
+    height: 300px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#math,#english,#science{
+    padding:1px 6px;
+    width: 50px; 
+    border-radius:8px ;
+    border:0.5px solid brown;
+}
+#total,#percentage{
+    padding:1px 6px;
+    width: 80px; 
+    border-radius:8px ;
+    border:0.5px solid rgb(228, 78, 78);
+    background-color: azure;
+    
+}
+.navigation,footer{
+    background: linear-gradient(90deg, rgba(21,175,207,0.7764355742296919) 0%, rgba(242,235,95,1) 48%, rgba(255,145,0,1) 100%);
+}
+.foottable{
+    padding: 6px;
+}
+.footersection{
+    background: linear-gradient(90deg, rgba(21,175,207,0.7764355742296919) 0%, rgba(242,235,95,1) 48%, rgba(255,145,0,1) 100%);
+}
+.card{
+    transition: 0.15s ease-in;
+}
+
+.card:hover{
+    transform: scale(1.1);
+
+}
+
+.social-icons{
+    border-radius: 15%;
+    height: 40px;
+    width: 40px;
+    transition: 0.2s ease-in-out;
+    :hover{
+
+        transform: scale(1.25);
+    }
+}
+.testbtn{
+    margin-left: 30px;
+    width:80px;
+    height:30px;
+    border-radius: 8px;
+    border: 1px solid rgb(235, 147, 7);
+    box-shadow: 3px 3px red;
+}
