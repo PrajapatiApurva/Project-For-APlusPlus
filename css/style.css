@@ -99,12 +99,6 @@
     background-color: rgb(102, 229, 229); 
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
-
   .card img{
     border-radius: 16px;
-  }
-
-  .developedBy{
-    text-decoration: none;
-    font-weight: bold;
   }
