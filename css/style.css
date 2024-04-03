@@ -84,3 +84,21 @@
     border: 1px solid rgb(235, 147, 7);
     box-shadow: 3px 3px red;
 }
+.dropdown-submenu {
+    position: relative;
+  }
+  
+  .dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+  }
+  .card{
+    height: 250px;
+    border-radius: 16px;
+    background-color: rgb(102, 229, 229); 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .card img{
+    border-radius: 16px;
+  }
